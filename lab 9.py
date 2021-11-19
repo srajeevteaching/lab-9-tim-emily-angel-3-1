@@ -59,11 +59,9 @@ def print_min_and_max_profit(list):
 
 # save movie data function
 def save_movie_data(list, new_file_name):
+    newfile = open(new_file_name, "w")
     for row_list in list:
-
-    #newfile = open(new_file_name, "w")
-    #for row_list in list:
-        #print(row_list, file = newfile)
+        print(row_list, file = newfile)
 
 
 # main function
